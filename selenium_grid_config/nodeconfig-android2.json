@@ -1,0 +1,25 @@
+{
+  "capabilities": [
+    {
+      "udid": "emulator-5556",
+      "deviceName": "Pixel 3 XL",
+      "platformVersion": "11",
+      "platformName": "Android",
+      "maxInstances": 1
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 4000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://127.0.0.1:4733/wb/hub",
+    "maxSession": 1,
+    "register": true,
+    "host": "127.0.0.1",
+    "port": 4733,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "127.0.0.1",
+    "hubProtocol": "http"
+  }
+}
